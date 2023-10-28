@@ -62,6 +62,11 @@ include './header.php';
                                         <?php echo $row['uaddress'] ?>
                                     </span>
                                 </li>
+                                <li>
+                                    <p>Status</p><span>:
+                                        <b style="color:red"><?php echo $row[9] ?></b>
+                                    </span>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -73,7 +78,7 @@ include './header.php';
             ';
             }
             ?>
-            
+
         </div>
         <div class="row">
 

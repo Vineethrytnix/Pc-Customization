@@ -38,7 +38,7 @@ include './header.php';
                     </thead>
                     <tbody>
                         <?php
-                        $view = "SELECT `delivery_boy`.*,`user`.*,`cart`.* FROM `user`,`delivery_boy`,`cart` WHERE `delivery_boy`.`cus_id`=`cart`.`cus_id` AND `cart`.`user_id`=`user`.`uid` AND `delivery_boy`.`cus_id`='$cid'";
+                        $view = "SELECT `delivery_boy`.*,`user`.*,`cart`.* FROM `user`,`delivery_boy`,`cart` WHERE `delivery_boy`.`cus_id`=`cart`.`cus_id` AND `cart`.`user_id`=`user`.`uid` AND `delivery_boy`.`cus_id`='$cid' AND `cart`.`status`='Purchased'";
                         $exe = mysqli_query($conn, $view);
                         $total = 0;
 
@@ -76,7 +76,7 @@ include './header.php';
 
                                     </td>
                                     <td>
-                                        <?php if ($row['status'] == "Free") { ?>
+                                        <?php if ($row[7] == "Free") { ?>
                                             <a href="order_status.php?did=<?php echo $did; ?>&name=<?php echo $row['dname']; ?>&uid=<?php echo $row['user_id']; ?>&cart_id=<?php echo $cart_id; ?>"
                                                 class="btn btn-outline-info">Assign</a>
                                         <?php } else { ?>

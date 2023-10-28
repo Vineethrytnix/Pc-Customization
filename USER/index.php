@@ -69,7 +69,7 @@ include '../connection/connect.php';
                                         Add
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                                        <a class="dropdown-item" href="add_requirement.php">Requirement</a>
+                                        <!-- <a class="dropdown-item" href="add_requirement.php">Requirement</a> -->
                                         <a class="dropdown-item" href="view_cus_centres.php">Customization Centre</a>
                                         <a class="dropdown-item" href="view_orders.php">My Orders</a>
                                     </div>

@@ -42,6 +42,7 @@ include './header.php';
                             $exe = mysqli_query($conn, $view);
                             while ($row = mysqli_fetch_array($exe)) {
                                 $cart_id = $row['cart_id'];
+                                $shipping = $row['shipping'];
                                 ?>
                                 <tr>
                                     <th colspan="2"><span>
@@ -54,14 +55,23 @@ include './header.php';
                                     <th> <span>
                                             <?php echo $row['price'] ?>.00
                                         </span></th>
-                                    <th> <span>
-                                            <a
-                                                href="delete_ordered.php?cart_id=<?php echo $row['cart_id'] ?>&pay_id=<?php echo $row['pay_id'] ?>"><img
-                                                    src="../img/trash.png" width="30px" alt=""></a>
-                                        </span></th>
-                                    <th> <span>
-                                            <a href="assign_delivery_boy.php?cart_id=<?php echo $row['cart_id'] ?>&pay_id=<?php echo $row['pay_id'] ?>" class="btn btn-outline-info">Assign Order</a>
-                                        </span></th>
+
+                                    <?php if ($shipping == "Order Delivered & Completed") { ?>
+                                        <th colspan="2"> <span>
+                                                <a href="" class="btn btn-outline-info">Order Delivered</a>
+                                            </span></th>
+
+                                    <?php } else { ?>
+                                        <th> <span>
+                                                <a
+                                                    href="delete_ordered.php?cart_id=<?php echo $row['cart_id'] ?>&pay_id=<?php echo $row['pay_id'] ?>"><img
+                                                        src="../img/trash.png" width="30px" alt=""></a>
+                                            </span></th>
+                                        <th> <span>
+                                                <a href="assign_delivery_boy.php?cart_id=<?php echo $row['cart_id'] ?>&pay_id=<?php echo $row['pay_id'] ?>"
+                                                    class="btn btn-outline-info">Assign Order</a>
+                                            </span></th>
+                                    <?php } ?>
                                 </tr>
 
                                 <!-- <tr>
