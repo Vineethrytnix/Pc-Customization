@@ -111,8 +111,8 @@
                             </ul>
                         </div>
                         <div class="hearer_icon d-flex">
-                            <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
-                            <a href=""><i class="ti-heart"></i></a>
+                            <!-- <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
+                            <a href=""><i class="ti-heart"></i></a> -->
                             <div class="dropdown cart">
                                 <?php
                                 $cart = "SELECT COUNT(*) FROM `cart` WHERE `status` = 'incart' AND `payment` = 'not paid'";

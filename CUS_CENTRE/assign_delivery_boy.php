@@ -75,7 +75,7 @@ include './header.php';
                                         ; ?>
 
                                     </td>
-                                    <td>
+                                    <td> 
                                         <?php if ($row[7] == "Free") { ?>
                                             <a href="order_status.php?did=<?php echo $did; ?>&name=<?php echo $row['dname']; ?>&uid=<?php echo $row['user_id']; ?>&cart_id=<?php echo $cart_id; ?>"
                                                 class="btn btn-outline-info">Assign</a>

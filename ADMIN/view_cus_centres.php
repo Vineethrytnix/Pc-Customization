@@ -26,11 +26,11 @@ include './header.php';
     }
 
     .containers .box:hover .imgBox {
-        transform: translate(0, -4.5rem);
+        transform: translate(0, -6.5rem);
     }
 
     .containers .box:hover .content {
-        transform: translate(0, 4.5rem);
+        transform: translate(0, 6.5rem);
     }
 
     .imgBox {
@@ -112,7 +112,7 @@ include './header.php';
         ?>
         <div class="box">
             <div class="imgBox">
-                <img src="../image/<?php echo $row['cimage'] ?>" alt="">
+                <img src="../image/<?php echo $row['cimage'] ?>" width="170px" alt="">
             </div>
             <div class="content">
                 <h2>
@@ -131,8 +131,8 @@ include './header.php';
         </div>
     <?php } ?>
 </div>
-<br><br>
-
+<br><br><br>
+<br><br><br>
 <center>
 
     <h2><b style="color: #555;">Approved Customization </b></h2><br><br>

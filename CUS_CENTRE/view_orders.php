@@ -91,7 +91,7 @@ include './header.php';
 
                                     echo "<tr>
                                                     <th scope='col' colspan='3'>Quantity</th>
-                                                    <th scope='col'>Total = $$amt</th>
+                                                    <th scope='col'>Total =$amt</th>
                                                 </tr>";
 
                                 }
