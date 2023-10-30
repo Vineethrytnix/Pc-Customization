@@ -104,7 +104,7 @@ include './header.php';
                         <div class="containers">
                             <div class="cards">
                                 <div class="image">
-                                    <img href="#" src="../image/<?php echo $row['uimage'] ?>" style="border-radius:5px">
+                                    <center><img href="#" src="../image/<?php echo $row['uimage'] ?>" style="border-radius:5px" width="170px" style=""></center>
                                 </div>
                                 <div class="content">
                                     <h3><b>

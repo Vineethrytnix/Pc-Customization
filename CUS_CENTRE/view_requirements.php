@@ -28,6 +28,7 @@ include './header.php';
                                 <th scope="col">Requirements</th>
                                 <th scope="col">Date</th>
                                 <th scope="col">Action</th>
+                                <th scope="col">Customer Details</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -72,6 +73,7 @@ include './header.php';
                                         <?php } ?>
 
                                     </th>
+                                    <th><a href="view_users.php?uid=<?php echo $row['uid'] ?>">View <img src="../img/social-media.png" width="30px" alt=""></a></th>
                                 </tr>
 
                                 <!-- <tr>

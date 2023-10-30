@@ -71,7 +71,7 @@ include '../connection/connect.php';
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
                                         <!-- <a class="dropdown-item" href="add_requirement.php">Requirement</a> -->
                                         <a class="dropdown-item" href="view_cus_centres.php">Customization Centre</a>
-                                        <a class="dropdown-item" href="view_orders.php">My Orders</a>
+                                        <!-- <a class="dropdown-item" href="view_orders.php">My Orders</a> -->
                                     </div>
                                 </li>
 
@@ -702,7 +702,7 @@ include '../connection/connect.php';
                                 Copyright &copy;
                                 <script>document.write(new Date().getFullYear());</script> All rights reserved | This
                                 template is made with <i class="ti-heart" aria-hidden="true"></i> by <a
-                                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                                    href="https://colorlib.com" target="_blank">TeamLcc</a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </P>
                         </div>

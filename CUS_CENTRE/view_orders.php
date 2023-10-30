@@ -93,7 +93,6 @@ include './header.php';
                                                     <th scope='col' colspan='3'>Quantity</th>
                                                     <th scope='col'>Total =$amt</th>
                                                 </tr>";
-
                                 }
                             }
 

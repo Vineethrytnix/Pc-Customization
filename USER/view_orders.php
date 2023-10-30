@@ -21,7 +21,7 @@ include './header.php';
                 </div> -->
             </div>
             <?php
-            $view = "SELECT `cart`.*,`products`.*,`user`.* FROM `products`,`cart`,`user` WHERE `cart`.`pid`=`products`.`pid` AND `cart`.`status`='Purchased' AND `cart`.`payment`='Paid' AND `cart`.`user_id`=`user`.`uid`";
+            $view = "SELECT `cart`.*,`products`.*,`user`.* FROM `products`,`cart`,`user` WHERE `cart`.`pid`=`products`.`pid` AND `cart`.`status`='Purchased' AND `cart`.`payment`='Paid' AND `cart`.`user_id`=`user`.`uid` AND `cart`.`user_id`='$uid'";
             $exe = mysqli_query($conn, $view);
             if (mysqli_num_rows($exe) > 0) {
                 while ($row = mysqli_fetch_array($exe)) {
@@ -96,7 +96,7 @@ include './header.php';
                         </thead>
                         <tbody>
                             <?php
-                            $view = "SELECT `cart`.*,`products`.*,`user`.*,`payment`.* FROM `products`,`cart`,`user`,`payment` WHERE `cart`.`pid`=`products`.`pid` AND `cart`.`status`='Purchased' AND `cart`.`payment`='Paid' AND `cart`.`user_id`=`user`.`uid` AND `payment`.`cart_id`=`cart`.`cart_id`";
+                            $view = "SELECT `cart`.*,`products`.*,`user`.*,`payment`.* FROM `products`,`cart`,`user`,`payment` WHERE `cart`.`pid`=`products`.`pid` AND `cart`.`status`='Purchased' AND `cart`.`payment`='Paid' AND `cart`.`user_id`=`user`.`uid` AND `payment`.`cart_id`=`cart`.`cart_id` AND `cart`.`user_id`='$uid'";
                             $exe = mysqli_query($conn, $view);
                             while ($row = mysqli_fetch_array($exe)) {
                                 $cart_id = $row['cart_id'];

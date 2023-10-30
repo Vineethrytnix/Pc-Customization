@@ -9,11 +9,11 @@ include './header.php';
 
 <style>
     #inp {
-        border: 1px solid rgb(125, 128, 128);
+        border: 1px solid rgb(219, 219, 219);
         background-color: aliceblue;
     }
     body{
-        background-color: rgb(243, 243, 243);
+        background-color: rgba(235, 248, 255, 0.767);
     }
 </style>
 
@@ -139,6 +139,6 @@ if (isset($_REQUEST['submit'])) {
 
 
 
-<?php
+'<?php
 include './footer.php'
-    ?>
+    ?>'

@@ -71,7 +71,7 @@
                                         <!-- <a class="dropdown-item" href="add_requirement.php">Requirement</a> -->
                                         <a class="dropdown-item" href="view_cus_centres.php">Customization Centre</a>
 
-                                        <a class="dropdown-item" href="view_orders.php">My Orders</a>
+                                        <!-- <a class="dropdown-item" href="view_orders.php">My Orders</a> -->
                                     </div>
                                 </li>
                                 <!-- <li class="nav-item dropdown">
