@@ -1,5 +1,5 @@
-<?php 
-include '../connection/connect.php'; 
+<?php
+include '../connection/connect.php';
 ?>
 
 <!doctype html>
@@ -113,19 +113,20 @@ include '../connection/connect.php';
                         </div>
                         <div class="hearer_icon d-flex">
                             <!-- <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
-                            <a href=""><i class="ti-heart"></i></a> -->
+                            <a href=""></i></a> -->
                             <div class="dropdown cart">
                                 <?php
                                 $cart = "SELECT COUNT(*) FROM `cart` WHERE `status` = 'incart' AND `payment` = 'not paid'";
                                 $exe = mysqli_query($conn, $cart);
                                 while ($row = mysqli_fetch_array($exe)) {
-                                    $cnt=$row['COUNT(*)'];
+                                    $cnt = $row['COUNT(*)'];
 
 
                                     ?>
                                     <a class="dropdown-toggle" href="view_cart.php" id="navbarDropdown3"
                                         data-toggle="dropdown" aria-haspopup="<?php echo $cnt ?>" aria-expanded="false">
-                                        <i class="fas fa-cart-plus"></i><?php echo $cnt ?>
+                                        <i class="fas fa-cart-plus"></i>
+                                        <?php echo $cnt ?>
                                     </a>
 
                                 <?php } ?>
@@ -233,52 +234,7 @@ include '../connection/connect.php';
     </section>
     <!-- banner part start-->
 
-    <!-- feature_part start-->
-    <!-- <section class="feature_part padding_top">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section_tittle text-center">
-                        <h2>Featured Category</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="single_feature_post_text">
-                        <p>Premium Quality</p>
-                        <h3>Latest foam Sofa</h3>
-                        <a href="#" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
-                        <img src="img/feature/feature_1.png" alt="" height="250px">
-                    </div>
-                </div>
-                <div class="col-lg-5 col-sm-6">
-                    <div class="single_feature_post_text">
-                        <p>Premium Quality</p>
-                        <h3>Latest foam Sofa</h3>
-                        <a href="#" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
-                        <img src="img/feature/feature_2.png" alt="" height="250px">
-                    </div>
-                </div>
-                <div class="col-lg-5 col-sm-6">
-                    <div class="single_feature_post_text">
-                        <p>Premium Quality</p>
-                        <h3>Latest foam Sofa</h3>
-                        <a href="#" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
-                        <img src="img/feature/feature_3.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-5 col-sm-6">
-                    <div class="single_feature_post_text">
-                        <p>Premium Quality</p>
-                        <h3>Latest foam Sofa</h3>
-                        <a href="#" class="feature_btn">EXPLORE NOW <i class="fas fa-play"></i></a>
-                        <img src="img/feature/feature_4.png" height="250px" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+
     <!-- upcoming_event part start -->
 
     <!-- product_list start-->
@@ -302,7 +258,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Lenovo Mouse</h4>
                                             <h3>&#8377; 250.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -312,7 +268,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>LG R-3</h4>
                                             <h3>&#8377; 7500.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -322,7 +278,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>MSI Gaming</h4>
                                             <h3>&#8377;150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -332,7 +288,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Hp Alienware</h4>
                                             <h3>&#8377;1,25,000.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -342,7 +298,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Asuz ROG</h4>
                                             <h3>&#8377;1,60,000.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -352,7 +308,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>MSI GF63</h4>
                                             <h3>&#8377;75,000.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -362,7 +318,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Samsung UHD Monitor</h4>
                                             <h3>&#8377;66,500.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -372,7 +328,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>HP OMAN</h4>
                                             <h3>&#8377;2,15,000.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -386,7 +342,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -396,7 +352,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -406,7 +362,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -416,7 +372,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -426,7 +382,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -436,7 +392,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -446,7 +402,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -456,7 +412,7 @@ include '../connection/connect.php';
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="view_products.php" class="add_cart">Purchase</i></a>
                                         </div>
                                     </div>
                                 </div>

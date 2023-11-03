@@ -97,7 +97,7 @@
                         </div>
                         <!-- <div class="hearer_icon d-flex">
                             <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
-                            <a href=""><i class="ti-heart"></i></a>
+                            <a href=""></a>
                             <div class="dropdown cart">
                                 <a class="dropdown-toggle" href="#" id="navbarDropdown3" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -136,7 +136,9 @@
                                         <div class="banner_text_iner">
                                             <h1>Pc Customization &
                                                 Service</h1>
-                                            <p>Custom Gaming PCs and Workstations built with the best high performance components, overclocked processors, and liquid cooling for your gaming pc.</p>
+                                            <p>Custom Gaming PCs and Workstations built with the best high performance
+                                                components, overclocked processors, and liquid cooling for your gaming
+                                                pc.</p>
                                             <a href="#" class="btn_2">buy now</a>
                                         </div>
                                     </div>
@@ -145,7 +147,8 @@
                                     <img src="img/banner_img2.png" width="300px" alt="">
                                 </div>
                             </div>
-                        </div><div class="single_banner_slider">
+                        </div>
+                        <div class="single_banner_slider">
                             <div class="row">
                                 <div class="col-lg-5 col-md-8">
                                     <div class="banner_text">
@@ -162,7 +165,8 @@
                                     <img src="img/banner_img1.png" alt="" height="400px">
                                 </div>
                             </div>
-                        </div><div class="single_banner_slider">
+                        </div>
+                        <div class="single_banner_slider">
                             <div class="row">
                                 <div class="col-lg-5 col-md-8">
                                     <div class="banner_text">
@@ -270,81 +274,81 @@
                             <div class="row align-items-center justify-content-between">
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_1.png" alt="">
+                                        <img src="../img/product/product_1.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Lenovo Mouse</h4>
                                             <h3>&#8377; 250.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_2.png" alt="">
+                                        <img src="../img/product/product_2.png" alt="">
                                         <div class="single_product_text">
                                             <h4>LG R-3</h4>
                                             <h3>&#8377; 7500.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_3.png" alt="">
+                                        <img src="../img/product/product_3.png" alt="">
                                         <div class="single_product_text">
                                             <h4>MSI Gaming</h4>
                                             <h3>&#8377;150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_4.png" alt="">
+                                        <img src="../img/product/product_4.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Hp Alienware</h4>
                                             <h3>&#8377;1,25,000.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_5.png" alt="">
+                                        <img src="../img/product/product_5.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Asuz ROG</h4>
                                             <h3>&#8377;1,60,000.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_6.png" alt="">
+                                        <img src="../img/product/product_6.png" alt="">
                                         <div class="single_product_text">
                                             <h4>MSI GF63</h4>
                                             <h3>&#8377;75,000.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_7.png" alt="">
+                                        <img src="../img/product/product_7.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Samsung UHD Monitor</h4>
                                             <h3>&#8377;66,500.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_8.png" alt="">
+                                        <img src="../img/product/product_8.png" alt="">
                                         <div class="single_product_text">
                                             <h4>HP OMAN</h4>
                                             <h3>&#8377;2,15,000.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
@@ -354,81 +358,81 @@
                             <div class="row align-items-center justify-content-between">
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_1.png" alt="">
+                                        <img src="../img/product/product_1.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_2.png" alt="">
+                                        <img src="../img/product/product_2.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_3.png" alt="">
+                                        <img src="../img/product/product_3.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_4.png" alt="">
+                                        <img src="../img/product/product_4.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_5.png" alt="">
+                                        <img src="../img/product/product_5.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_6.png" alt="">
+                                        <img src="../img/product/product_6.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_7.png" alt="">
+                                        <img src="../img/product/product_7.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="single_product_item">
-                                        <img src="img/product/product_8.png" alt="">
+                                        <img src="../img/product/product_8.png" alt="">
                                         <div class="single_product_text">
                                             <h4>Quartz Belt Watch</h4>
                                             <h3>$150.00</h3>
-                                            <a href="#" class="add_cart">+ add to cart<i class="ti-heart"></i></a>
+                                            <a href="#" class="add_cart">Purchase</a>
                                         </div>
                                     </div>
                                 </div>
@@ -649,9 +653,7 @@
                         <p>Heaven fruitful doesn't over lesser in days. Appear creeping
                         </p>
                         <div id="mc_embed_signup">
-                            <form target="_blank"
-                                
-                                method="get" class="subscribe_form relative mail_part">
+                            <form target="_blank" method="get" class="subscribe_form relative mail_part">
                                 <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
                                     class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
                                     onblur="this.placeholder = ' Email Address '">
@@ -671,8 +673,12 @@
                     <div class="col-lg-8">
                         <div class="copyright_text">
                             <P><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">TeamLcc</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></P>
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                                template is made with <i class="ti-heart" aria-hidden="true"></i> by <a
+                                    href="https://colorlib.com" target="_blank">TeamLcc</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </P>
                         </div>
                     </div>
                     <div class="col-lg-4">
